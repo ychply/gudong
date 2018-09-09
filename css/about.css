@@ -1,0 +1,245 @@
+.banner{
+	width: 100%;
+	height: 505px;
+	overflow: hidden;
+	position: relative;
+	background:url(../img/about.9c5b0.png) no-repeat;
+	background-size: 100%;
+}
+.banner .slogan{/*图片*/
+	display: block;
+	width: 437px;
+	height: 60px;
+	position: absolute;
+	top:175px;
+	left:283px ;
+}
+.banner .go-iec{/*图片*/
+	display: block;
+	width:190px;
+	height:54px;
+	position: absolute;
+	top:265px;
+	left:515px ;
+}
+.banner .content_box{
+	position: absolute;
+	top:25px;
+	left:190px;
+	width:960px;
+	margin:0 auto;
+	overflow: hidden;
+	
+}
+.banner .content_box img{
+	display: block;
+	width:81px;
+	height: 30px;
+}
+.banner .content_box .login{
+	width: 65px;
+	height: 28px;
+	border: 1px solid #fff;
+	border-radius:666px;
+	text-align: center;
+	line-height: 28px;
+	cursor: pointer;
+	font-size: 16px;
+	
+	
+}
+.banner .content_box .login:hover{
+	border: 1px solid #4DCE61;
+	
+}
+
+
+.banner .content_box .login a{
+	color:#FFFFFF;
+}
+.banner .content_box .login:hover a{
+	color: #4DCE61;
+}
+/*导航列表*/
+.banner .content_box .menu{
+	padding-top: 6px;
+	width:588px;
+	
+	
+}
+.banner .content_box .menu ul li{
+	cursor: pointer;
+	float: left;
+	width: 74px;
+	height: 21px;
+	line-height: 21px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.banner .content_box .menu ul li a{
+	color: #FFFFFF;
+}
+.banner .content_box .menu ul li a.topliColor{
+	color: #4DCE61;
+}
+.banner .content_box .menu ul li:hover{
+	color: #4DCE61;
+}
+.banner .content_box .menu ul li a:hover{
+	color: #4DCE61;
+}
+.banner .content_box .menu ul li:not(.ll){
+	margin-right: 25px;
+}
+
+/*下边空白DIV*/
+.banner .nul{
+	position: absolute;
+   left:6%;
+   right:6%;
+    height: 33px;
+    background: #FFFFFF;
+    z-index: 5;
+    bottom: 0;
+}
+
+.con-main{
+	width: 1200px;
+	overflow: hidden;
+	margin:0 auto;
+	background: #FFFFFF;
+	padding-bottom: 100px;
+	
+}
+.con-main .con-left{
+	     width:150px;
+	     height: 350px;
+	     margin-left:100px;
+	     margin-top: 50px;
+}
+.con-main .con-left ul li{
+   width: 150px;
+   height: 45px;
+   line-height: 45px;
+   font-size: 18px;
+   font-family: "微软雅黑";
+   border-bottom: 1px solid #F1F1F1;
+}
+.con-main .con-right{
+	width: 730px;
+	
+	margin-left: 50px;
+	margin-top:50px;
+	
+}
+.con-main .con-right dl{
+	width: 100%;
+	margin-left: 20px;
+}
+.con-main .con-right dl dt{
+	width: 100%;
+	text-align:left;
+	font-size: 18px;
+	height: 43px;
+	line-height: 43px;
+	margin-bottom:10px;
+	color:#57BC71;
+	border-bottom: 1px solid #F1F1F1;
+}
+.con-main .con-right dl dd{
+	width: 100%;
+	margin-left: 0px;
+}
+.con-main .con-right dl dd p{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	width: 100%;
+	margin-bottom: 25px;
+}
+.con-main .con-right dl dd table{
+	width: 100%;
+}
+
+
+.con-main .con-right dl dd table td{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	vertical-align: top;
+	padding-bottom:50px;
+}
+
+	
+.con-main .con-right dl dd .year-con{
+     
+
+}
+.mar-top{
+	margin-top: 20px;
+}
+
+.con-main .con-right dl dd .year-con .year{
+	position: relative;
+	left: 0;
+	top: -5px;
+	width: 60px;
+	height: 100%px;
+	text-align: center;
+	
+}
+.con-main .con-right dl dd .year-con .year-cn{
+	position: relative;
+	padding: 20px 0;
+	
+	padding-left:15px;
+	font-size: 12px;
+	
+	border-left: 1px solid #D2CECE;
+	
+}
+.con-main .con-right dl dd .year-con .border{
+	border:0px solid transparent;
+}
+
+.year-con .year-cn .sp{
+	display: block;
+	width: 6px;
+	height: 6px;
+	background:#00BC71;
+	position: absolute;
+	top: 0;
+	left:-3px;
+}
+.con-main .con-right dl dd .year-con .year-con p{
+	margin-bottom: 10px;
+}
+
+
+.con-main .con-right .shanwu{
+	margin-left: 37px;
+	width: 100%;
+	}
+	.con-main .con-right .shanwu p.title{
+		width: 100%;
+	text-align:left;
+	font-size: 18px;
+	height: 43px;
+	line-height: 43px;
+	margin-bottom:10px;
+	color:#57BC71;
+	border-bottom: 1px solid #F1F1F1;
+	}
+.con-main .con-right .shanwu .shanwu-con{
+	margin-top:30px;
+	width: 100%;
+	
+}
+.con-main .con-right .shanwu .shanwu-con .shanwu-context{
+	float: left;
+	width: 233px;
+	height: 70px;
+	font-size: 16px;
+	
+	
+	
+}

@@ -1,0 +1,162 @@
+body{
+	background: #F7F7F7;
+}
+.banner{
+	width: 100%;
+	height: 505px;
+	overflow: hidden;
+	position: relative;
+	background: url(../img/pic.779c8.jpg) no-repeat;
+	background-size: 100%;
+}
+.banner .slogan{/*图片*/
+	display: block;
+	width: 437px;
+	height: 60px;
+	position: absolute;
+	top:175px;
+	left:283px ;
+}
+.banner .go-iec{/*图片*/
+	display: block;
+	width:190px;
+	height:54px;
+	position: absolute;
+	top:265px;
+	left:515px ;
+}
+.banner .content_box{
+	position: absolute;
+	top:25px;
+	left:190px;
+	width:960px;
+	margin:0 auto;
+	overflow: hidden;
+	
+}
+.banner .content_box img{
+	display: block;
+	width:81px;
+	height: 30px;
+}
+.banner .content_box .login{
+	width: 65px;
+	height: 28px;
+	border: 1px solid #fff;
+	border-radius:666px;
+	text-align: center;
+	line-height: 28px;
+	cursor: pointer;
+	font-size: 16px;
+	
+	
+}
+.banner .content_box .login:hover{
+	border: 1px solid #4DCE61;
+	
+}
+
+
+.banner .content_box .login a{
+	color:#FFFFFF;
+}
+.banner .content_box .login:hover a{
+	color: #4DCE61;
+}
+/*导航列表*/
+.banner .content_box .menu{
+	padding-top: 6px;
+	width:588px;
+	
+	
+}
+.banner .content_box .menu ul li{
+	cursor: pointer;
+	float: left;
+	width: 74px;
+	height: 21px;
+	line-height: 21px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.banner .content_box .menu ul li a{
+	color: #FFFFFF;
+}
+.banner .content_box .menu ul li.topliColor{
+	color: #4DCE61;
+}
+.banner .content_box .menu ul li:hover{
+	color: #4DCE61;
+}
+.banner .content_box .menu ul li a:hover{
+	color: #4DCE61;
+}
+.banner .content_box .menu ul li:not(.ll){
+	margin-right: 25px;
+}
+
+/*下边空白DIV*/
+.banner .nul{
+	position: absolute;
+    left: 6%;
+    right: 6%;
+    height: 33px;
+    background: #FFFFFF;
+    z-index: 5;
+    bottom: 0;
+}
+
+/*中间内容 */
+.cont{
+	padding: 50px 0;
+	margin: 0 auto;
+	width:1200px;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+.cont  h1{
+	text-align: center;
+	width:960px;
+	margin: 0 auto;
+	font-size: 32px;
+	color: #000000;
+}
+.cont  p{
+	width:580px;
+	margin: 20px auto;
+	font-size: 14px;
+	text-align: center;
+}
+.cont .f1{
+	width:300px;
+	height: 38px;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-align: center;
+}
+.cont .f1 a{
+	display: inline-block;
+	width: 131px;
+	height: 38px;
+	line-height: 38px;
+	border-radius:400px;
+	background-color: #00BC71;
+	margin-left: 15px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+ .cont .video{/*图片*/
+ 	width: 960px;
+ 	height: 480px;
+ 	display: block;
+ 	margin: 0 auto;
+ 	margin-top:30px;
+ }
+ .cont .bot{
+ 	width: 960px;
+ 	height: 112px;
+ 	display: block;
+ 	margin: 0 auto;
+ 	margin-top:30px;
+ }
